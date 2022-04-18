@@ -1,0 +1,9 @@
+.hero {
+  margin: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  height: calc(100% - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

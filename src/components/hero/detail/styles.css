@@ -1,0 +1,39 @@
+.tab {
+  color: var(--white);
+  max-width: 31.25rem;
+  padding: 3rem 0;
+}
+
+.tab_title {
+  font: var(--headline2);
+}
+
+.tab_description {
+  font: var(--text);
+  margin: 0;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.tab_button {
+  background: var(--blue);
+  font: var(--text);
+  color: var(--white);
+  display: inline-block;
+  padding: 1rem 4rem;
+  vertical-align: middle;
+  transition: all 250ms ease;
+}
+.tab_button:active {
+  transform: scale(0.9);
+}
+.tab_button i {
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .tab_title {
+    font: var(--headline1);
+  }
+}

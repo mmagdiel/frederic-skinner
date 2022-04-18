@@ -1,0 +1,50 @@
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(292px, auto));
+  grid-auto-rows: 200px;
+  grid-template-rows: 190px;
+  place-content: center center;
+}
+
+.tabs_item {
+  position: relative;
+  cursor: pointer;
+}
+
+.tabs_item img {
+  max-width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.overlay {
+  background: var(--backgroundOverlay);
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: height;
+  transition: height 250ms ease-in-out;
+}
+
+.overlay-text {
+  color: var(--white);
+  font: var(--text);
+}
+
+.tabs_item:hover > .overlay {
+  height: 30%;
+}
+
+.tabs_item.active > .overlay {
+  height: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs {
+    place-content: center start;
+  }
+}

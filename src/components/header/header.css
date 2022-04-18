@@ -1,0 +1,18 @@
+.header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  margin: 2em;
+  height: 40px;
+  width: 40px;
+}
+
+.header_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

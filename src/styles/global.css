@@ -1,0 +1,81 @@
+:root {
+  --fontbase1: "Bodoni Moda", serif;
+  --fontbase2: "Oxygen", sans-serif;
+  --headline1: bold 6rem/7rem var(--fontbase1);
+  --headline2: bold 3rem/3rem var(--fontbase1);
+  --text: 1rem/1.5rem var(--fontbase2);
+  --white: #ffffff;
+  --blue: rgba(44, 116, 255, 1);
+  --backgroundOverlay: rgba(0, 0, 0, 0.75);
+  --backgroundSidebar: rgba(0, 0, 0, 0.25);
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.remove {
+  display: none;
+}
+
+.container {
+  width: 1300px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.658);
+}
+
+@media screen and (min-width: 1336px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/*
+  margin: auto;
+  padding: 0 1rem;
+
+*/

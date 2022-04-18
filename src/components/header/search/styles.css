@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  color: var(--white);
+  background: transparent;
+  margin-right: 8px;
+}
+
+.search_input {
+  border: 0;
+
+  width: 170px;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.search_icon {
+  top: -4px;
+  right: -8px;
+  color: inherit;
+  position: absolute;
+  vertical-align: top;
+}

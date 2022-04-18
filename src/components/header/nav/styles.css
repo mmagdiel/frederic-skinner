@@ -1,0 +1,27 @@
+.nav {
+  display: none;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 2.8rem;
+  align-items: center;
+}
+
+.nav_menu_link {
+  font: var(--text);
+  color: var(--white);
+  display: inline-block;
+  transition: all 250ms ease;
+}
+
+.nav_menu_link:hover {
+  transform: scale(0.9);
+  border-bottom: 1px solid var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+}
