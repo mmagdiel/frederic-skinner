@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: `/docs`,
   /* Your site config here */
   plugins: [
     `gatsby-plugin-image`,
